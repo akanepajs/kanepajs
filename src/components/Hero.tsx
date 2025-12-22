@@ -24,7 +24,7 @@ const Hero = () => {
               <img 
                 src={artursHeadshot} 
                 alt="Artūrs Kaņepājs" 
-                className="relative w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-card shadow-elegant"
+                className="relative w-44 h-44 md:w-52 md:h-52 rounded-full object-cover object-[center_15%] border-4 border-card shadow-elegant"
               />
             </div>
           </div>
