@@ -1,5 +1,6 @@
 import { ArrowRight, Mail, Globe, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import artursHeadshot from "@/assets/arturs-headshot.jpg";
 
 const Hero = () => {
   return (
@@ -13,10 +14,25 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile photo */}
+          <div 
+            className="mb-8 opacity-0 animate-fade-up"
+            style={{ animationDelay: '0.1s' }}
+          >
+            <div className="relative inline-block">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-xl scale-110" />
+              <img 
+                src={artursHeadshot} 
+                alt="Artūrs Kaņepājs" 
+                className="relative w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-card shadow-elegant"
+              />
+            </div>
+          </div>
+
           {/* Location badge */}
           <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-soft border border-border mb-8 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.1s' }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-soft border border-border mb-6 opacity-0 animate-fade-up"
+            style={{ animationDelay: '0.2s' }}
           >
             <MapPin className="w-4 h-4 text-primary" />
             <span className="text-sm font-body text-muted-foreground">Riga, Latvia</span>
@@ -25,7 +41,7 @@ const Hero = () => {
           {/* Name */}
           <h1 
             className="font-display text-5xl md:text-7xl lg:text-8xl font-normal tracking-tight mb-6 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.2s' }}
+            style={{ animationDelay: '0.3s' }}
           >
             <span className="text-foreground">Artūrs</span>
             <br />
@@ -35,7 +51,7 @@ const Hero = () => {
           {/* Title */}
           <p 
             className="font-body text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.3s' }}
+            style={{ animationDelay: '0.4s' }}
           >
             Technical AI Governance Researcher
             <span className="block mt-2 text-lg text-muted-foreground/80">
@@ -46,7 +62,7 @@ const Hero = () => {
           {/* Keywords */}
           <div 
             className="flex flex-wrap justify-center gap-3 mb-10 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.4s' }}
+            style={{ animationDelay: '0.5s' }}
           >
             {[
               "AI Safety",
@@ -67,7 +83,7 @@ const Hero = () => {
           {/* CTA buttons */}
           <div 
             className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.5s' }}
+            style={{ animationDelay: '0.6s' }}
           >
             <Button variant="hero" size="lg" asChild>
               <a href="#research">
@@ -86,7 +102,7 @@ const Hero = () => {
           {/* Quick links */}
           <div 
             className="flex items-center justify-center gap-6 mt-12 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.6s' }}
+            style={{ animationDelay: '0.7s' }}
           >
             <a 
               href="https://tracelab.org/" 
