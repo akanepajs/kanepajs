@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, Globe, MapPin } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import artursHeadshot from "@/assets/arturs-headshot.jpg";
 
@@ -29,14 +29,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Location badge */}
-          <div 
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-soft border border-border mb-6 opacity-0 animate-fade-up"
-            style={{ animationDelay: '0.2s' }}
-          >
-            <MapPin className="w-4 h-4 text-primary" />
-            <span className="text-sm font-body text-muted-foreground">Riga, Latvia</span>
-          </div>
 
           {/* Name */}
           <h1 
@@ -50,13 +42,10 @@ const Hero = () => {
 
           {/* Title */}
           <p 
-            className="font-body text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
+            className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
-            Technical AI Governance Researcher
-            <span className="block mt-2 text-lg text-muted-foreground/80">
-              Risk Quant → AI Safety & Policy
-            </span>
+            technical AI governance & animal welfare economics | former risk quant
           </p>
 
           {/* Keywords */}
@@ -104,15 +93,6 @@ const Hero = () => {
             className="flex items-center justify-center gap-6 mt-12 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.7s' }}
           >
-            <a 
-              href="https://tracelab.org/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
-              <Globe className="w-4 h-4" />
-              <span className="font-body text-sm">tracelab.org</span>
-            </a>
             <a 
               href="https://www.linkedin.com/in/arturs-kanepajs" 
               target="_blank" 
