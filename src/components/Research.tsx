@@ -3,20 +3,20 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "What do Large Language Models Say About Animals?",
+    venue: "arXiv",
+    year: "2025",
+    description: "Investigating LLM responses and biases regarding animal welfare and ethics.",
+    link: "https://arxiv.org/abs/2503.04804",
+    tags: ["Animal Ethics", "LLMs", "AI Alignment"]
+  },
+  {
     title: "Towards Safe Multilingual Frontier AI",
     venue: "arXiv (ERA Fellowship)",
     year: "2024",
     description: "Policy recommendations to enhance multilingual AI capabilities while mitigating risks of multilingual jailbreaks across 24 EU languages.",
     link: "https://arxiv.org/abs/2409.13708",
     tags: ["AI Safety", "EU Policy", "Multilingual"]
-  },
-  {
-    title: "Adapting Probabilistic Risk Assessment for AI",
-    venue: "arXiv",
-    year: "2024",
-    description: "A framework adapting PRA techniques from high-reliability industries to quantify risks from advanced AI systems.",
-    link: "https://arxiv.org/abs/2504.18536",
-    tags: ["Risk Assessment", "AI Safety", "Framework"]
   },
   {
     title: "Road to AnimalHarmBench",
@@ -27,7 +27,7 @@ const publications = [
     tags: ["Animal Ethics", "AI Evaluation", "Benchmarks"]
   },
   {
-    title: "The Future of Work: AI's Impact on Labor Markets",
+    title: "The Future of Work: How Can Policymakers Prepare for AI's Impact on Labor Markets?",
     venue: "EA Forum",
     year: "2023",
     description: "Policy analysis on how policymakers can prepare for AI's transformative effects on employment and labor markets.",

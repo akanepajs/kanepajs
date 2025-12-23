@@ -1,4 +1,5 @@
-import { Briefcase, GraduationCap, Users } from "lucide-react";
+import eaLatviaLogo from "@/assets/ea-latvia-logo.png";
+import dzivniekuBrivibaLogo from "@/assets/dzivnieku-briviba-logo.jpeg";
 
 const About = () => {
   return (
@@ -26,20 +27,10 @@ const About = () => {
           </div>
 
           {/* Stats/Roles */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
-              <div className="w-14 h-14 gradient-hero rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <GraduationCap className="w-7 h-7 text-primary-foreground" />
-              </div>
-              <h3 className="font-display text-xl text-foreground mb-2">ERA Fellowship</h3>
-              <p className="font-body text-muted-foreground text-sm">
-                AI Safety Research Program
-              </p>
-            </div>
-
-            <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
-              <div className="w-14 h-14 bg-secondary rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <Users className="w-7 h-7 text-secondary-foreground" />
+              <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                <img src={eaLatviaLogo} alt="EA Latvia" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">EA Latvia</h3>
               <p className="font-body text-muted-foreground text-sm">
@@ -48,8 +39,8 @@ const About = () => {
             </div>
 
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
-              <div className="w-14 h-14 gradient-accent rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <Briefcase className="w-7 h-7 text-accent-foreground" />
+              <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                <img src={dzivniekuBrivibaLogo} alt="Dzīvnieku brīvība" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
               <p className="font-body text-muted-foreground text-sm">
