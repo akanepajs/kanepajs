@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-body text-sm text-muted-foreground mb-1">Website</p>
-                  <p className="font-body text-foreground">ziedoefektivi.lv</p>
+                  <p className="font-body text-foreground">akanepajs.eu</p>
                 </div>
               </a>
             </div>
