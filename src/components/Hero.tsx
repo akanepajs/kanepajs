@@ -45,7 +45,7 @@ const Hero = () => {
             className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
-            🔶
+            Researcher, ex-quant
           </p>
 
           {/* Keywords */}
