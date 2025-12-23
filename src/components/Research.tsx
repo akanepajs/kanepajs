@@ -101,17 +101,6 @@ const Research = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="ghost" asChild>
                 <a 
-                  href="https://forum.effectivealtruism.org/users/arturs-kanepajs" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <BookOpen className="w-4 h-4" />
-                  All EA Forum Posts
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </Button>
-              <Button variant="ghost" asChild>
-                <a 
                   href="https://www.researchgate.net/scientific-contributions/Arturs-Kanepajs-2293261847" 
                   target="_blank" 
                   rel="noopener noreferrer"
