@@ -45,7 +45,7 @@ const Hero = () => {
             className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
-            AI governance, EU policy, labor economics, animal welfare | former risk quant
+            Researcher, former risk quant
           </p>
 
           {/* Keywords */}
@@ -54,7 +54,10 @@ const Hero = () => {
             style={{ animationDelay: '0.5s' }}
           >
             {["AI governance",
-               "EU policy"
+               "EU policy", 
+              "animal welfare",
+              "labor economics",
+              "effective giving"
             ].map((tag) => (
               <span
                 key={tag}
