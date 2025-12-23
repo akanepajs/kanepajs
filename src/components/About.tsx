@@ -31,6 +31,9 @@ const About = () => {
               <p className="font-body text-muted-foreground text-sm">
                 Founder & Chair of the Board
               </p>
+              <p className="font-body text-muted-foreground text-xs mt-1">
+              2023–present
+              </p>
             </div>
 
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
@@ -40,6 +43,9 @@ const About = () => {
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
               <p className="font-body text-muted-foreground text-sm">
                 Treasurer & Board Member
+              </p>
+              <p className="font-body text-muted-foreground text-xs mt-1">
+              2022–present
               </p>
             </div>
           </div>
