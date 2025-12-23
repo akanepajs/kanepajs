@@ -17,7 +17,7 @@ const About = () => {
           {/* Bio */}
           <div className="prose prose-lg max-w-none mb-16">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
-              I work and donate to address dome of the most pressing AI and animal welfare issues. 
+              I work and donate to address pressing AI and animal welfare issues. 
             </p>
           </div>
 
