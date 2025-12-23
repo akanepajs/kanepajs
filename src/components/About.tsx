@@ -45,7 +45,7 @@ const About = () => {
                 Board Member & Finance Lead
               </p>
               <p className="font-body text-muted-foreground text-xs mt-1">
-              2022–present
+              2021–present
               </p>
             </div>
           </div>
