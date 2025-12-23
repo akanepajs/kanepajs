@@ -39,7 +39,6 @@ const Research = () => {
               Selected Research
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Selected works on AI safety, governance, and the intersection of technology and policy
             </p>
             <div className="w-20 h-1 gradient-hero mx-auto rounded-full mt-6" />
           </div>
