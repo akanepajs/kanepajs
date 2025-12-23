@@ -4,43 +4,27 @@ import { Button } from "@/components/ui/button";
 const publications = [
   {
     title: "What do Large Language Models Say About Animals?",
-    venue: "arXiv",
+    venue: "ACM FAccT",
     year: "2025",
     description: "Investigating LLM responses and biases regarding animal welfare and ethics.",
     link: "https://arxiv.org/abs/2503.04804",
     tags: ["Animal Ethics", "LLMs", "AI Alignment"]
   },
   {
-    title: "Towards Safe Multilingual Frontier AI",
-    venue: "arXiv (ERA Fellowship)",
-    year: "2024",
-    description: "Policy recommendations to enhance multilingual AI capabilities while mitigating risks of multilingual jailbreaks across 24 EU languages.",
-    link: "https://arxiv.org/abs/2409.13708",
-    tags: ["AI Safety", "EU Policy", "Multilingual"]
-  },
-  {
-    title: "Road to AnimalHarmBench",
-    venue: "EA Forum",
-    year: "2024",
-    description: "Developing benchmarks for evaluating AI systems' treatment and representation of animal welfare concerns.",
-    link: "https://forum.effectivealtruism.org/posts/NAnFodwQ3puxJEANS/road-to-animalharmbench-1",
-    tags: ["Animal Ethics", "AI Evaluation", "Benchmarks"]
-  },
-  {
-    title: "The Future of Work: How Can Policymakers Prepare for AI's Impact on Labor Markets?",
-    venue: "EA Forum",
-    year: "2023",
+    title: "Navigating AI's Impact on Labor: Challenges, Scenarios, and Policy Pathways",
+    venue: "SSRN",
+    year: "2025",
     description: "Policy analysis on how policymakers can prepare for AI's transformative effects on employment and labor markets.",
     link: "https://forum.effectivealtruism.org/posts/e7KzMqheMNnKKAjpc/the-future-of-work-how-can-policymakers-prepare-for-ai-s",
     tags: ["Economics", "Policy", "Labor"]
   },
   {
-    title: "Beware Profit-Driven Automation that Shrinks the Economy",
-    venue: "EA Forum",
-    year: "2023",
-    description: "Economic analysis of automation dynamics and the divergence between firm incentives and societal outcomes.",
-    link: "https://forum.effectivealtruism.org/posts/cNFtvat57P9i8BEe9/beware-profit-driven-automation-that-shrinks-the-economy",
-    tags: ["Economics", "Automation", "Policy"]
+    title: "Towards Safe Multilingual Frontier AI",
+    venue: "NeurIPS SoLaR workshop (Best Sociotechnical Paper)",
+    year: "2024",
+    description: "Policy recommendations to enhance multilingual AI capabilities while mitigating risks of multilingual jailbreaks across 24 EU languages.",
+    link: "https://arxiv.org/abs/2409.13708",
+    tags: ["AI Safety", "EU Policy", "Multilingual"]
   }
 ];
 
@@ -52,7 +36,7 @@ const Research = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-              Research & Publications
+              Selected Research
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
               Selected works on AI safety, governance, and the intersection of technology and policy
