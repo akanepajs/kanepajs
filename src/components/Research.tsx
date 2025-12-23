@@ -16,13 +16,13 @@ const publications = [
     year: "2025",
     description: "Analyses AI-driven labour displacement scenarios and provides policy recommendations.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
-    tags: ["Labor Productivity", "Labor Displacement", "Economic Policy"]
+    tags: ["Labor Productivity", "Labour Displacement", "Economic Policy"]
   },
   {
     title: "Towards Safe Multilingual Frontier AI",
     venue: "NeurIPS SoLaR workshop (Best Sociotechnical Paper)",
     year: "2024",
-    description: "Assesses safety gaps in non-English use of LLMs and provides policy recommendations to foster multilingual AI.",
+    description: "Assesses LLM safety gaps in non-English contexts and provides policy recommendations to foster multilingual AI.",
     link: "https://arxiv.org/abs/2409.13708",
     tags: ["Multilingual AI", "Multilingual Jailbreaks", "AI Safety",]
   }
