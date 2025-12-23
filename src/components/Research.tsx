@@ -16,7 +16,7 @@ const publications = [
     year: "2025",
     description: "Analyses AI-driven labour displacement scenarios and provides policy recommendations.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
-    tags: ["Labor Productivity", "Labour Displacement", "Economic Policy"]
+    tags: ["Labour Productivity", "Labour Displacement", "Economic Policy"]
   },
   {
     title: "Towards Safe Multilingual Frontier AI",
