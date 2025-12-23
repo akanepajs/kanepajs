@@ -54,11 +54,6 @@ const Hero = () => {
             style={{ animationDelay: '0.5s' }}
           >
             {[
-              "AI Safety",
-              "Multilingual AI",
-              "Compute Governance",
-              "Animal Ethics",
-              "Risk Assessment"
             ].map((tag) => (
               <span
                 key={tag}
