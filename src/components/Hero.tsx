@@ -82,7 +82,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="mailto:akanepajs@gmail.com">
+              <a href="mailto:arturs@kanepajs.eu">
                 <Mail className="w-5 h-5" />
                 Get in Touch
               </a>
