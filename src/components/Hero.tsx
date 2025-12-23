@@ -35,9 +35,9 @@ const Hero = () => {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-normal tracking-tight mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.3s' }}
           >
-            <span className="text-foreground">Artūrs</span>
+            <span className="text-foreground">Arturs</span>
             <br />
-            <span className="text-gradient">Kaņepājs</span>
+            <span className="text-gradient">Kanepajs</span>
           </h1>
 
           {/* Title */}
