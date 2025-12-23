@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 const publications = [
   {
     title: "What do Large Language Models Say About Animals?",
-    venue: "ACM FAccT",
+    venue: "ACM FAccT ’25 Proceedings",
     year: "2025",
     description: "Investigating LLM responses and biases regarding animal welfare and ethics.",
-    link: "https://arxiv.org/abs/2503.04804",
+    link: "https://dl.acm.org/doi/full/10.1145/3715275.3732094",
     tags: ["Animal Ethics", "LLMs", "AI Alignment"]
   },
   {
@@ -15,7 +15,7 @@ const publications = [
     venue: "SSRN",
     year: "2025",
     description: "Policy analysis on how policymakers can prepare for AI's transformative effects on employment and labor markets.",
-    link: "https://forum.effectivealtruism.org/posts/e7KzMqheMNnKKAjpc/the-future-of-work-how-can-policymakers-prepare-for-ai-s",
+    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
     tags: ["Economics", "Policy", "Labor"]
   },
   {
