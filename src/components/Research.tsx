@@ -22,7 +22,7 @@ const publications = [
     title: "Towards Safe Multilingual Frontier AI",
     venue: "NeurIPS SoLaR workshop (Best Sociotechnical Paper)",
     year: "2024",
-    description: "Analyzes multilingual jailbreak risks and provides policy recommendations to foster multilingual AI.",
+    description: "Assesses safety gaps in non-English use of LLMs and provides policy recommendations to foster multilingual AI.",
     link: "https://arxiv.org/abs/2409.13708",
     tags: ["Multilingual AI", "Multilingual Jailbreaks", "AI Safety",]
   }
