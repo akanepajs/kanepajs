@@ -32,7 +32,7 @@ const About = () => {
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
                 <img src={eaLatviaLogo} alt="EA Latvia" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-display text-xl text-foreground mb-2">EA Latvia</h3>
+              <h3 className="font-display text-xl text-foreground mb-2">Effective Altruism Latvia</h3>
               <p className="font-body text-muted-foreground text-sm">
                 Founder & Chair of the Board
               </p>
@@ -44,7 +44,7 @@ const About = () => {
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
               <p className="font-body text-muted-foreground text-sm">
-                Board Member, Animal Advocacy
+                Treasurer & Board Member
               </p>
             </div>
           </div>
