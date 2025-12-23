@@ -46,8 +46,6 @@ const Hero = () => {
             style={{ animationDelay: '0.4s' }}
           >
             🔶
-            <br />
-            Researcher, Former Risk Quant
           </p>
 
           {/* Keywords */}
