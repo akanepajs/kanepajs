@@ -16,7 +16,7 @@ const publications = [
     year: "2025",
     description: "Policy analysis on how policymakers can prepare for transformative AI-driven effects on labor markets.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
-    tags: ["Labor Productivity", "Labor Displacement", "Economics Policy"]
+    tags: ["Labor Productivity", "Labor Displacement", "Economic Policy"]
   },
   {
     title: "Towards Safe Multilingual Frontier AI",
