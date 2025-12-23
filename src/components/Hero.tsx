@@ -45,7 +45,7 @@ const Hero = () => {
             className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
-            Researcher, former risk quant
+            Researcher, Former Risk Quant
           </p>
 
           {/* Keywords */}
@@ -53,11 +53,11 @@ const Hero = () => {
             className="flex flex-wrap justify-center gap-3 mb-10 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.5s' }}
           >
-            {["AI governance",
-               "EU policy", 
-              "animal welfare",
-              "labor economics",
-              "effective giving"
+            {["AI Governance",
+               "EU Policy", 
+              "Animal Welfare",
+              "Labor Economics",
+              "Effective Giving"
             ].map((tag) => (
               <span
                 key={tag}
