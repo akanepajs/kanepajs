@@ -6,7 +6,7 @@ const publications = [
     title: "What do Large Language Models Say About Animals?",
     venue: "ACM FAccT ’25 Proceedings",
     year: "2025",
-    description: "Introduces AnimalHarmBench, the first automated benchmark to quantify bias and safety risks towards animals in LLMs.",
+    description: "Introduces AnimalHarmBench, an automated benchmark to quantify the risk of animal harm from LLMs.",
     link: "https://dl.acm.org/doi/full/10.1145/3715275.3732094",
     tags: ["AnimalHarmBench", "Animal Ethics", "Automated Benchmark"]
   },
@@ -14,7 +14,7 @@ const publications = [
     title: "Navigating AI's Impact on Labor: Challenges, Scenarios, and Policy Pathways",
     venue: "SSRN",
     year: "2025",
-    description: "Analyzes AI-driven labour displacement scenarios and provides policy recommendations.",
+    description: "Analyses AI-driven labour displacement scenarios and provides policy recommendations.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
     tags: ["Labor Productivity", "Labor Displacement", "Economic Policy"]
   },
