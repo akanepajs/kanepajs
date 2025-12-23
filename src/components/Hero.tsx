@@ -23,7 +23,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-xl scale-110" />
               <img 
                 src={artursHeadshot} 
-                alt="Artūrs Kaņepājs" 
+                alt="Arturs Kanepajs" 
                 className="relative w-44 h-44 md:w-52 md:h-52 rounded-full object-cover object-[center_15%] border-4 border-card shadow-elegant"
               />
             </div>
