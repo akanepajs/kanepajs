@@ -11,7 +11,7 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-12">
-            Reach me via Linkedin, email, or Signal.
+            Reach me via email or LinkedIn.
           </p>
         </div>
       </div>
