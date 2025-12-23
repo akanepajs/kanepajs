@@ -76,7 +76,7 @@ const Contact = () => {
           {/* Location note */}
           <div className="mt-10 inline-flex items-center gap-2 text-muted-foreground">
             <MapPin className="w-4 h-4" />
-            <span className="font-body text-sm">Based in Riga, Latvia</span>
+            <span className="font-body text-sm">Riga, Latvia</span>
           </div>
         </div>
       </div>
