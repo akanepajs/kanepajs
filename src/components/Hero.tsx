@@ -37,7 +37,9 @@ const Hero = () => {
           >
             <span className="text-foreground">Arturs</span>
             <br />
-            <span className="text-gradient">Kanepajs 🔸</span>
+            <span className="text-gradient">Kanepajs</span>
+            <br />
+            <span className="text-foreground">🔸</span>
           </h1>
 
           {/* Title */}
