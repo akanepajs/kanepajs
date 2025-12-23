@@ -11,7 +11,7 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-12">
-            Open to collaborations on AI governance, economic impact research, animal welfare, and effective giving. Reach me via email or LinkedIn.
+            Open to collaboration on AI governance, economic policy, animal welfare, and effective giving. Reach me via email or LinkedIn.
           </p>
         </div>
       </div>
