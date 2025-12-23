@@ -16,11 +16,12 @@ const About = () => {
           {/* Bio */}
           <div className="prose prose-lg max-w-none mb-16">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
-              I am a Technical AI Governance researcher with interests in animal ethics, 
-              multilingual AI capabilities and safety, compute governance, and the economics 
-              of transformative AI. My background includes over 10 years of experience spanning 
-              project management, quantitative risk analysis and model validation in finance, 
-              and research in economics.
+              My research interests include animal welfare economics, AI policy, AI ethical alignment, 
+              multilingual AI capabilities and safety, compute governance, and the economics of transformative AI. 
+              My background includes over 10 years of experience spanning project management, 
+              quantitative risk analysis and model validation in finance, and research in economics. 
+              I am also the founder and chair of the board at 𝘌𝘧𝘧𝘦𝘤𝘵𝘪𝘷𝘦 𝘈𝘭𝘵𝘳𝘶𝘪𝘴𝘮 𝘓𝘢𝘵𝘷𝘪𝘢 and a board member of 
+              the animal advocacy organization 𝘋𝘻𝘪̄𝘷𝘯𝘪𝘦𝘬𝘶 𝘣𝘳𝘪̄𝘷𝘪̄𝘣𝘢.
             </p>
           </div>
 
