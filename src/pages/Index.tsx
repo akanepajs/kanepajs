@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Artūrs Kaņepājs | AI Safety & Governance Researcher</title>
+        <title>Artūrs Kaņepājs</title>
         <meta 
           name="description" 
           content="Technical AI Governance researcher focused on multilingual AI safety, compute governance, and the economics of transformative AI. Based in Riga, Latvia." 
