@@ -45,7 +45,7 @@ const Hero = () => {
             className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
-            technical AI governance & animal welfare economics | former risk quant
+            AI governance, EU policy, labor economics, animal welfare | former risk quant
           </p>
 
           {/* Keywords */}
@@ -53,7 +53,8 @@ const Hero = () => {
             className="flex flex-wrap justify-center gap-3 mb-10 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.5s' }}
           >
-            {[
+            {["AI governance",
+               "EU policy"
             ].map((tag) => (
               <span
                 key={tag}
