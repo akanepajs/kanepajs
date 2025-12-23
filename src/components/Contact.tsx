@@ -24,7 +24,7 @@ const Contact = () => {
                 <div className="w-12 h-12 gradient-hero rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Mail className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <div className="text-left">
+                <div className="text-center">
                   <p className="font-body text-sm text-muted-foreground mb-1">Email</p>
                   <p className="font-body text-foreground">arturs@kanepajs.eu</p>
                 </div>
