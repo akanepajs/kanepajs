@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
-    title: "What do Large Language Models Say About Animals?",
+    title: "What do Large Language Models Say About Animals? Investigating Risks of Animal Harm in Generated Text",
     venue: "ACM FAccT ’25 Proceedings",
     year: "2025",
     description: "Introduces AnimalHarmBench, an automated benchmark to quantify the risk of animal harm from LLMs.",
