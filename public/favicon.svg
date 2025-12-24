@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Base diamond -->
+  <path d="M50 5 L95 50 L50 95 L5 50 Z"
+        fill="#FF8C00"
+        stroke="#FFFFFF"
+        stroke-width="2" />
+  <!-- Simple facet lines -->
+  <path d="M50 5 L50 95 M5 50 L95 50"
+        stroke="rgba(255,255,255,0.3)"
+        stroke-width="1" />
+</svg>
