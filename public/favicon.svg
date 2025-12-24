@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <!-- Base diamond -->
   <path d="M50 5 L95 50 L50 95 L5 50 Z"
-        fill="#FF8C00"
+        fill="#F78C51"
         stroke="#FFFFFF"
         stroke-width="2" />
   <!-- Simple facet lines -->
