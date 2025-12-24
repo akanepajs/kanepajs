@@ -24,7 +24,7 @@ const publications = [
     year: "2024",
     description: "Assesses LLM safety gaps in non-English contexts and provides policy recommendations to foster multilingual AI.",
     link: "https://arxiv.org/abs/2409.13708",
-    tags: ["Multilingual AI", "Multilingual Jailbreaks", "AI Safety",]
+    tags: ["Multilingual AI", "Multilingual Jailbreaks", "EU Policy",]
   }
 ];
 
