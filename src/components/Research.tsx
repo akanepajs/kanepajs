@@ -14,7 +14,7 @@ const publications = [
     title: "Navigating AI's Impact on Labor: Challenges, Scenarios, and Policy Pathways",
     venue: "SSRN working paper",
     year: "2025",
-    description: "Analyses AI-driven labour displacement scenarios and provides policy recommendations.",
+    description: "Analyses AI-driven productivity growth and unemployment scenarios and evaluates potential policy responses.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
     tags: ["Labour Productivity", "Labour Displacement", "Economic Policy"]
   },
