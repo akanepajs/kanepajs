@@ -81,7 +81,7 @@ const Hero = () => {
             <Button variant="outline" size="lg" asChild>
               <a href="mailto:hello@kanepajs.eu">
                 <Mail className="w-5 h-5" />
-                Get in Touch
+                Email
               </a>
             </Button>
           </div>
