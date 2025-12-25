@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Section header */}
           <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-            Get in Touch
+            Contact
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-12">
             Open to collaboration on AI governance, economic policy, animal welfare, and effective giving. Reach me via email or LinkedIn.
