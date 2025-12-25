@@ -55,7 +55,8 @@ const Hero = () => {
           >
             {["AI Governance",
               "Economic Policy",    
-              "Animal Welfare"
+              "Animal Welfare",
+              "Effective Giving"
             ].map((tag) => (
               <span
                 key={tag}
