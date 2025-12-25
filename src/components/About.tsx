@@ -26,7 +26,7 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Ziedo Efektīvi
+                Ziedo efektīvi
               </a>
               , an effective giving initiative.
             </p>
