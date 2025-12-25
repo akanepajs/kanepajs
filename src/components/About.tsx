@@ -17,7 +17,7 @@ const About = () => {
           {/* Bio */}
           <div className="prose prose-lg max-w-none mb-16">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
-              With over a decade of experience in macroeconomics and financial modelling, I now focus on AI governance, economic policy, and AI evaluations. 
+              With over a decade of experience in macroeconomics and financial modelling, I now focus on AI governance, economic policy, and animal welfare. 
             </p>
           </div>
 
