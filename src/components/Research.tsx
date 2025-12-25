@@ -12,7 +12,7 @@ const publications = [
   },
   {
     title: "Navigating AI's Impact on Labor: Challenges, Scenarios, and Policy Pathways",
-    venue: "SSRN",
+    venue: "SSRN working paper",
     year: "2025",
     description: "Analyses AI-driven labour displacement scenarios and provides policy recommendations.",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5032882",
@@ -20,7 +20,7 @@ const publications = [
   },
   {
     title: "Towards Safe Multilingual Frontier AI",
-    venue: "NeurIPS SoLaR workshop (Best Sociotechnical Paper)",
+    venue: "NeurIPS SoLaR Workshop (Best Sociotechnical Paper)",
     year: "2024",
     description: "Assesses LLM safety gaps in non-English contexts and provides policy recommendations to foster multilingual AI.",
     link: "https://arxiv.org/abs/2409.13708",
