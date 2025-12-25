@@ -18,11 +18,11 @@ const About = () => {
           <div className="prose prose-lg max-w-none mb-16">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
               With over a decade of experience in macroeconomics and financial modelling, 
-              I now focus on AI governance, economic policy, and animal welfare. 
+              I now focus on AI governance, economic policy, and animal welfare.{" "} 
               I also help run{" "}
               <a
                 href="https://ziedoefektivi.lv/"
-                className="underline decoration-dotted hover:decoration-solid"
+                className="underline decoration-dotted hover:underline"
                 target="_blank"
                 rel="noreferrer"
               >
