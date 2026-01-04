@@ -31,7 +31,7 @@ const Hero = () => {
 
           
           {/* Name */}
-          {/*
+
             <h1 
             className="font-display text-5xl md:text-7xl lg:text-8xl font-normal tracking-tight mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.3s' }}
@@ -40,15 +40,16 @@ const Hero = () => {
             <br />
             <span className="text-gradient">Kanepajs</span>
           </h1>
-          */}
 
           {/* Title */}
+          {/*
           <p 
             className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto opacity-0 animate-fade-up"
             style={{ animationDelay: '0.4s' }}
           >
             Economist & AI Researcher
           </p>
+          */}
 
           {/* Keywords */}
           <div 
