@@ -32,7 +32,6 @@ const About = () => {
           </div>
 
           {/* Stats/Roles */}
-          {/* 
             <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
@@ -45,9 +44,9 @@ const About = () => {
               <p className="font-body text-muted-foreground text-xs mt-1">
               2023–present
               </p>
-            </div>
-            */}
-
+            </div>   
+            
+            {/* 
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
               <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
                 <img src={dzivniekuBrivibaLogo} alt="Dzīvnieku brīvība" className="w-full h-full object-cover" />
@@ -60,6 +59,7 @@ const About = () => {
               2021–present
               </p>
             </div>
+            */}
           </div>
 
           {/* Experience timeline hint */}
