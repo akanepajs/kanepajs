@@ -6,7 +6,7 @@ const publications = [
     title: "When to Ban Farrowing Crates? Analysing EU Policy Options for Ban Dates and Transition Periods",
     venue: "Griffin Carpenter",
     year: "2026",
-    description: "Analyses how different EU ban dates and transition periods for farrowing crates affect farm economics and sow welfare.",
+    description: "Analyses how EU ban dates and transition periods for farrowing crates affect farm economics and sow welfare.",
     link: "https://griffincarpenter.org/reports/when-to-ban-farrowing-crates",
     tags: ["Farrowing Crates", "Stranded Assets", "EU Policy"]
   },  
