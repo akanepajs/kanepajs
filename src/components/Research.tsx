@@ -8,7 +8,7 @@ const publications = [
     year: "2026",
     description: "Analyses how EU ban dates and transition periods for farrowing crates affect farm economics and sow welfare.",
     link: "https://griffincarpenter.org/reports/when-to-ban-farrowing-crates",
-    tags: ["Farrowing Crates", "Stranded Assets", "EU Policy"]
+    tags: ["Farrowing Crates", "Stranded Assets", "Animal Welfare Policy"]
   },  
   {
     title: "What do Large Language Models Say About Animals? Investigating Risks of Animal Harm in Generated Text",
