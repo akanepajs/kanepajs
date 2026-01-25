@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "When to ban farrowing crates? Analysing EU policy options for ban dates and transition periods",
+    venue: "Griffin Carpenter",
+    year: "2026",
+    description: "Explores the economic and sow welfare implications of different schedules of farrowing crate ban.",
+    link: "https://griffincarpenter.org/reports/when-to-ban-farrowing-crates",
+    tags: ["Farrowing Crates", "Stranded Assets", "EU Policy"]
+  },  
+  {
     title: "What do Large Language Models Say About Animals? Investigating Risks of Animal Harm in Generated Text",
     venue: "ACM FAccT ’25 Proceedings",
     year: "2025",
