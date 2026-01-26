@@ -1,7 +1,6 @@
-generator: node
-build:
-  command: npm run build
-  directory: dist
-node:
-  version: 24
-  package_manager: npm
+# Docker image for Node.js
+image: node:18.16.0
+# Build command
+command: npm install && npm run build
+# Public directory
+public: dist
