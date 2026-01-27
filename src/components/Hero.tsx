@@ -61,7 +61,7 @@ const Hero = () => {
               "Economic Policy",
               "Animal Welfare",
               "Effective Giving",
-              "🔸10% pledger #3672",
+              "🔸10% pledger",
             ].map((tag) => (
               <span
                 key={tag}
