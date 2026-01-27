@@ -27,7 +27,16 @@ const About = () => {
               >
                 Ziedo efektīvi
               </a>
-              , an effective giving initiative.
+              , an effective giving initiative in collaboration with{" "}
+			        <a
+                href="https://www.givingwhatwecan.org/"
+                className="underline decoration-dotted hover:underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Giving What We Can
+              </a>
+              .
             </p>
           </div>
 
