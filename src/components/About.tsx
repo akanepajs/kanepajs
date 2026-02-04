@@ -70,6 +70,7 @@ const About = () => {
               className="block"
             >
             <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
+				              <div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
                 <img src={dzivniekuBrivibaLogo} alt="Dzīvnieku brīvība" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
