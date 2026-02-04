@@ -83,7 +83,8 @@ const About = () => {
             </div>
                         </a>
 
-          {/* Experience timeline hint */}
+          </div>
+			          {/* Experience timeline hint */}
           <div className="mt-16 text-center">
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-muted/50 border border-border">
               <span className="text-2xl font-display text-primary">10+</span>
@@ -92,7 +93,7 @@ const About = () => {
               </span>
             </div>
 			            </div>
-          </div>
+
         </div>
       </div>
     </section>
