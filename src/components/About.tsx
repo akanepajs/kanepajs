@@ -40,8 +40,8 @@ const About = () => {
             </p>
           </div>
 
-          {/* Stats/Roles */}
-            <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+        {/* Stats/Roles */}
+		<div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
 			<a
   			href="https://efektivaisaltruisms.lv/"
   			target="_blank"
@@ -75,7 +75,7 @@ const About = () => {
               2021–present
               </p>
             </div>
-          </div>
+        </div>
 
           {/* Experience timeline hint */}
           <div className="mt-16 text-center">
