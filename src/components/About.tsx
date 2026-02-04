@@ -91,6 +91,7 @@ const About = () => {
                 years in economics, finance, and project management
               </span>
             </div>
+			            </div>
           </div>
         </div>
       </div>
