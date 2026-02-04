@@ -63,14 +63,13 @@ const About = () => {
 			</a>
             
 
-            <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
-                          <a
-                href="http://www.dzivniekubriviba.lv/"
-                target="_blank"
-                rel="noreferrer"
-                className="block"
+            <a
+              href="http://www.dzivniekubriviba.lv/"
+              target="_blank"
+              rel="noreferrer"
+              className="block"
             >
-<div className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+            <div className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 text-center group hover:shadow-medium transition-shadow duration-300">
                 <img src={dzivniekuBrivibaLogo} alt="Dzīvnieku brīvība" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
@@ -81,8 +80,7 @@ const About = () => {
               2021–present
               </p>
             </div>
-        </div>
-            </a>
+                        </a>
 
           {/* Experience timeline hint */}
           <div className="mt-16 text-center">
