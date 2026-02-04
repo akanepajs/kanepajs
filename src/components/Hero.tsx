@@ -63,12 +63,24 @@ const Hero = () => {
               "Effective Giving",
               "🔸10% pledger",
             ].map((tag) => (
-              <span
-                key={tag}
-                className="px-4 py-2 text-sm font-body bg-muted text-muted-foreground rounded-full border border-border/50 hover:border-primary/30 hover:text-foreground transition-colors duration-300"
-              >
-                {tag}
-              </span>
+              tag === "🔸10% pledger" ? (
+            <a
+              href="https://www.givingwhatwecan.org/pledge"
+              target="_blank"
+              rel="noopener noreferrer"
+              key={tag}
+              className="px-4 py-2 text-sm font-body bg-muted text-muted-foreground rounded-full border border-border/50 hover:border-primary/30 hover:text-foreground transition-colors duration-300"
+            >
+              {tag}
+            </a>
+          ) : (
+            <span
+              key={tag}
+              className="px-4 py-2 text-sm font-body bg-muted text-muted-foreground rounded-full border border-border/50 hover:border-primary/30 hover:text-foreground transition-colors duration-300"
+            >
+              {tag}
+            </span>
+          )
             ))}
           </div>
 
