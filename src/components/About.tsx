@@ -64,7 +64,7 @@ const About = () => {
             
 
             <a
-              href="http://www.dzivniekubriviba.lv/"
+              href="https://www.dzivniekubriviba.lv/"
               target="_blank"
               rel="noreferrer"
               className="block"
@@ -75,7 +75,7 @@ const About = () => {
               </div>
               <h3 className="font-display text-xl text-foreground mb-2">Dzīvnieku brīvība</h3>
               <p className="font-body text-muted-foreground text-sm">
-                Board Member & Finance Lead
+                Board Member
               </p>
               <p className="font-body text-muted-foreground text-xs mt-1">
               2021–present
