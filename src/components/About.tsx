@@ -18,7 +18,7 @@ const About = () => {
           <div className="prose prose-lg max-w-none mb-16">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
               Economist and risk specialist applying a decade of experience to AI governance, economic policy, and animal welfare.{" "} 
-              I also help run{" "}
+              I help run an effective giving initiative {" "}
               <a
                 href="https://ziedoefektivi.lv/"
                 className="underline decoration-dotted hover:underline"
@@ -26,15 +26,6 @@ const About = () => {
                 rel="noreferrer"
               >
                 Ziedo efektīvi
-              </a>
-              , an effective giving initiative in collaboration with{" "}
-			        <a
-                href="https://www.givingwhatwecan.org/"
-                className="underline decoration-dotted hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Giving What We Can
               </a>
               .
             </p>
