@@ -4,8 +4,7 @@ import artursHeadshot from "@/assets/arturs-headshot.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-surface">
-      {/* Background decorative elements */}
+      <section className="relative py-20 md:py-28 lg:py-32 flex items-center justify-center overflow-hidden gradient-surface">      {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
