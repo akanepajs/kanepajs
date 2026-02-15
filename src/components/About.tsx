@@ -32,7 +32,7 @@ const About = () => {
           </div>
 
         {/* Stats/Roles */}
-		<div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+		<div className="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">
 			<a
   			href="https://efektivaisaltruisms.lv/"
   			target="_blank"
