@@ -55,10 +55,10 @@ const Hero = () => {
             className="flex flex-wrap justify-center gap-3 mb-10 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.5s' }}
           >
-            {["AI Governance",
-              "Quantitative Risk",
+            {["Quantitative Risk",
               "Economic Policy",
               "Animal Welfare",
+              "AI Governance",
               "Effective Giving",
               "🔸10% pledger",
             ].map((tag) => (
