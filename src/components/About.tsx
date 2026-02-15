@@ -53,7 +53,7 @@ const About = () => {
             </div>
 			</a>
             
-
+{/*
             <a
               href="https://www.dzivniekubriviba.lv/"
               target="_blank"
@@ -73,7 +73,7 @@ const About = () => {
               </p>
             </div>
                         </a>
-
+*/}
           </div>
 			          {/* Experience timeline hint */}
           <div className="mt-16 text-center">
