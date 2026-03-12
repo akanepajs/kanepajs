@@ -4,14 +4,13 @@ import artursHeadshot from "@/assets/arturs-headshot.jpg";
 
 const Hero = () => {
   return (
-      <section className="relative py-20 md:py-28 lg:py-32 flex items-center justify-center overflow-hidden gradient-surface">      {/* Background decorative elements */}
+      <section className="relative py-16 md:py-20 lg:py-24 flex items-center justify-center overflow-hidden gradient-surface">      {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/3 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/[0.03] rounded-full blur-3xl animate-float" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/[0.03] rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
       </div>
 
-      <div className="container mx-auto px-6 py-20 relative z-10">
+      <div className="container mx-auto px-6 py-12 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Profile photo */}
           <div 
@@ -84,8 +83,8 @@ const Hero = () => {
           </div>
 
           {/* CTA buttons */}
-          <div 
-            className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-up"
+          <div
+            className="flex flex-col sm:flex-row gap-3 justify-center opacity-0 animate-fade-up"
             style={{ animationDelay: '0.6s' }}
           >
             <Button variant="hero" size="lg" asChild>
@@ -103,8 +102,8 @@ const Hero = () => {
           </div>
 
           {/* Quick links */}
-          <div 
-            className="flex items-center justify-center gap-6 mt-12 opacity-0 animate-fade-up"
+          <div
+            className="flex items-center justify-center gap-6 mt-8 opacity-0 animate-fade-up"
             style={{ animationDelay: '0.7s' }}
           >
             <a 
