@@ -3,11 +3,11 @@ import dzivniekuBrivibaLogo from "@/assets/dzivnieku-briviba-logo.jpeg";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-card">
+    <section id="about" className="py-20 bg-card">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           {/* Section header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
               About
             </h2>
@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
           {/* Bio */}
-          <div className="prose prose-lg max-w-none mb-16">
+          <div className="prose prose-lg max-w-none mb-12">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
               Economist and risk specialist applying a decade of experience to AI governance, economic policy, and animal welfare.{" "} 
               I help run an effective giving initiative {" "}
@@ -76,7 +76,7 @@ const About = () => {
 */}
           </div>
 			          {/* Experience timeline hint */}
-          <div className="mt-16 text-center">
+          <div className="mt-12 text-center">
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-muted/50 border border-border">
               <span className="text-2xl font-display text-primary">10+</span>
               <span className="font-body text-muted-foreground">
