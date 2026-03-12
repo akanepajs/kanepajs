@@ -38,17 +38,15 @@ const publications = [
 
 const Research = () => {
   return (
-    <section id="research" className="py-24 gradient-surface">
+    <section id="research" className="py-20 gradient-surface">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           {/* Section header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
               Selected Research
             </h2>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            </p>
-            <div className="w-20 h-1 gradient-hero mx-auto rounded-full mt-6" />
+            <div className="w-20 h-1 gradient-hero mx-auto rounded-full mt-2" />
           </div>
 
           {/* Publications grid */}
@@ -56,7 +54,7 @@ const Research = () => {
             {publications.map((pub, index) => (
               <article
                 key={pub.title}
-                className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 hover:shadow-medium transition-all duration-300 group"
+                className="gradient-card p-8 rounded-2xl shadow-soft border border-border/50 border-l-[3px] border-l-primary/40 hover:border-l-primary hover:shadow-medium transition-all duration-300 group"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
