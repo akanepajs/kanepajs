@@ -42,8 +42,8 @@
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 30% 98%) 100%);
     --gradient-accent: linear-gradient(135deg, hsl(35 85% 55%) 0%, hsl(25 90% 50%) 100%);
     
-    --shadow-soft: 0 4px 24px -4px hsl(220 30% 12% / 0.08);
-    --shadow-medium: 0 8px 32px -8px hsl(220 30% 12% / 0.12);
+    --shadow-soft: 0 4px 20px -4px hsl(220 30% 12% / 0.06);
+    --shadow-medium: 0 8px 30px -8px hsl(220 30% 12% / 0.10);
     --shadow-glow: 0 0 40px hsl(215 70% 45% / 0.15);
     
     --font-display: 'Instrument Serif', serif;
@@ -157,6 +157,10 @@
 
   .shadow-glow {
     box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-elegant {
+    box-shadow: 0 8px 30px -6px hsl(220 30% 12% / 0.12), 0 0 0 1px hsl(220 30% 12% / 0.04);
   }
 
   .text-gradient {
