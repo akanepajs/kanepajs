@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Arturs Kanepajs
+            © {new Date().getFullYear()} Artūrs Kaņepājs
           </p>
           
           <nav className="flex items-center gap-6">
