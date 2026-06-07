@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
-    title: "Prioritization of Risks from Artificial Intelligence: A Delphi Study of 272 International Experts",
-    venue: "arXiv preprint",
+    title: "Prioritization of Risks from Artificial Intelligence",
+    venue: "MIT FutureTech",
     year: "2026",
     description: "A three-round Delphi study in which 272 international experts rank AI risks by likelihood and impact, with dangerous capabilities, competitive pressures, and weaponisation rated the leading near-term threats.",
     link: "https://futuretech.mit.edu/publication/prioritization-of-risks-from-artificial-intelligence-a-delphi-study-of-272-international-experts",
