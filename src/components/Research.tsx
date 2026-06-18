@@ -6,7 +6,7 @@ const publications = [
     title: "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
     venue: "compassionbench.com/tac",
     year: "2026",
-    description: "Introduces TAC (Travel Agent Compassion), an agentic benchmark testing whether AI travel agents avoid booking animal-exploitation activities.",
+    description: "Measures how often AI travel agents book activities that exploit animals.",
     link: "https://arxiv.org/abs/2606.18142",
     tags: ["TravelAgentCompassion", "Animal Ethics", "Agentic Benchmark"]
   },
