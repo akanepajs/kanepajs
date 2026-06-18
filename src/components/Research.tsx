@@ -5,6 +5,7 @@ const publications = [
   {
     title: "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
     venue: "compassionbench.com/tac",
+    venueLink: "https://compassionbench.com/tac",
     year: "2026",
     description: "Measures how often AI travel agents book activities that exploit animals.",
     link: "https://arxiv.org/abs/2606.18142",
@@ -79,9 +80,20 @@ const Research = () => {
                       <span className="px-3 py-1 text-xs font-body font-medium bg-primary/10 text-primary rounded-full">
                         {pub.year}
                       </span>
-                      <span className="text-sm font-body text-muted-foreground">
-                        {pub.venue}
-                      </span>
+                      {pub.venueLink ? (
+                        <a
+                          href={pub.venueLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm font-body text-muted-foreground hover:text-primary transition-colors duration-300"
+                        >
+                          {pub.venue}
+                        </a>
+                      ) : (
+                        <span className="text-sm font-body text-muted-foreground">
+                          {pub.venue}
+                        </span>
+                      )}
                     </div>
                     
                     <h3 className="font-display text-xl md:text-2xl text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
