@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+    venue: "arXiv preprint",
+    year: "2026",
+    description: "Introduces TAC (Travel Agent Compassion), an agentic benchmark testing whether AI travel agents avoid booking animal-exploitation activities.",
+    link: "https://arxiv.org/abs/2606.18142",
+    tags: ["TravelAgentCompassion", "Animal Ethics", "Agentic Benchmark"]
+  },
+  {
     title: "Prioritization of Risks from Artificial Intelligence",
     venue: "MIT FutureTech",
     year: "2026",
