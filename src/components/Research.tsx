@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "Reforming Pig Welfare in the European Union: The Case for a Cage-Free Future",
+    venue: "The European Institute for Animal Law & Policy",
+    year: "2026",
+    description: "Assesses the legal framework, economic costs, and animal welfare benefits of an EU-wide ban on farrowing crates.",
+    link: "https://animallaweurope.org/wp-content/uploads/EIALP_White-Paper_Reforming-Pig-Welfare-in-the-European-Union.pdf",
+    tags: ["Farrowing Crates", "Animal Welfare Economics", "EU Policy"]
+  },
+  {
     title: "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
     venue: "compassionbench.com/tac",
     venueLink: "https://compassionbench.com/tac",
