@@ -16,17 +16,7 @@ const About = () => {
           {/* Bio */}
           <div className="prose prose-lg max-w-none mb-12">
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
-              Economist and risk specialist applying a decade of experience to AI governance, economic policy, and animal welfare.{" "} 
-              I help run an effective giving initiative {" "}
-              <a
-                href="https://ziedoefektivi.lv/"
-                className="underline decoration-dotted hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ziedo efektīvi
-              </a>
-              .
+              Economist and quantitative analyst with a research focus on animal welfare and AI governance.
             </p>
           </div>
 

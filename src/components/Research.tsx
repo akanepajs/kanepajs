@@ -151,7 +151,7 @@ const Research = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="ghost" asChild>
                 <a 
-                  href="https://scholar.google.com/citations?hl=lv&user=fv4hKGwAAAAJ" 
+                  href="https://scholar.google.com/citations?user=fv4hKGwAAAAJ" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >

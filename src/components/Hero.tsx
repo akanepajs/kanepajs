@@ -74,7 +74,7 @@ const Hero = () => {
           ) : (
             <span
               key={tag}
-              className="px-4 py-2 text-sm font-body bg-muted text-muted-foreground rounded-full border border-border/50 hover:border-primary/30 hover:text-foreground transition-colors duration-300"
+              className="px-4 py-2 text-sm font-body bg-muted text-muted-foreground rounded-full border border-border/50"
             >
               {tag}
             </span>

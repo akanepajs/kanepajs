@@ -12,13 +12,12 @@ const Index = () => {
         <title>Artūrs (Art) Kaņepājs</title>
         <meta 
           name="description" 
-          content="Technical AI Governance researcher focused on multilingual AI safety, compute governance, and the economics of transformative AI. Based in Riga, Latvia." 
+          content="Economist and quantitative analyst with a research focus on animal welfare and AI governance. Based in Riga, Latvia." 
         />
-        <meta name="keywords" content="AI Governance, EU Policy, Animal Welfare, Labor Economics, Effective Giving" />
+        <meta name="keywords" content="Animal Welfare, AI Governance, Economic Policy, Quantitative Risk, Effective Giving" />
         <meta property="og:title" content="Artūrs (Art) Kaņepājs" />
-        <meta property="og:description" content="Technical AI Governance researcher focused on multilingual AI safety, compute governance, and the economics of transformative AI." />
+        <meta property="og:description" content="Economist and quantitative analyst with a research focus on animal welfare and AI governance." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://kanepajs.eu/" />
       </Helmet>
       
       <main className="min-h-screen">
