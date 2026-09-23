@@ -3,6 +3,16 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "Pay to Stay or Pay to Go? Comparing the Public Cost of Welfare Standards Versus a Ban on EU Fur Farming",
+    venue: "griffincarpenter.org",
+    venueLink: "https://griffincarpenter.org",
+    year: "2026",
+    credit: "Griffin Carpenter and Artūrs Kaņepājs. Prepared for Eurogroup for Animals, Respect for Animals, World Animal Protection SE, and VIER PFOTEN International.",
+    description: "Compares the public cost of stricter welfare standards for EU fur farming with the cost of a production ban, finding a ban modest by comparison and one-off.",
+    link: "https://griffincarpenter.org/reports/pay-to-stay-or-pay-to-go",
+    tags: ["Fur Farming", "Animal Welfare Economics", "EU Policy"]
+  },
+  {
     title: "Reforming Pig Welfare in the European Union: The Case for a Cage-Free Future",
     venue: "The European Institute for Animal Law & Policy",
     year: "2026",
@@ -107,6 +117,12 @@ const Research = () => {
                     <h3 className="font-display text-xl md:text-2xl text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
                       {pub.title}
                     </h3>
+                    
+                    {pub.credit && (
+                      <p className="text-sm font-body text-muted-foreground/80 italic mb-3">
+                        {pub.credit}
+                      </p>
+                    )}
                     
                     <p className="font-body text-muted-foreground mb-4">
                       {pub.description}

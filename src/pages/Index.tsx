@@ -18,7 +18,7 @@ const Index = () => {
         <meta property="og:title" content="Artūrs (Art) Kaņepājs" />
         <meta property="og:description" content="Technical AI Governance researcher focused on multilingual AI safety, compute governance, and the economics of transformative AI." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://arturs-kanepajs.com" />
+        <link rel="canonical" href="https://kanepajs.eu/" />
       </Helmet>
       
       <main className="min-h-screen">
