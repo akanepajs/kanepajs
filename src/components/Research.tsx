@@ -8,7 +8,7 @@ const publications = [
     year: "2026",
     description: "Compares the public cost of stricter welfare standards for EU fur farming with the cost of a production ban, finding a ban modest by comparison and one-off.",
     link: "https://griffincarpenter.org/reports/pay-to-stay-or-pay-to-go",
-    tags: ["Fur Farming", "Animal Welfare Economics", "EU Policy"]
+    tags: ["Fur Farming", "Compensation Costs", "EU Policy"]
   },
   {
     title: "Reforming Pig Welfare in the European Union: The Case for a Cage-Free Future",
