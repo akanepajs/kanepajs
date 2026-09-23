@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const publications = [
   {
     title: "Pay to Stay or Pay to Go? Comparing the Public Cost of Welfare Standards Versus a Ban on EU Fur Farming",
-    venue: "Griffin Carpenter / Eurogroup for Animals and partners",
+    venue: "Griffin Carpenter / Eurogroup for Animals, Respect for Animals, World Animal Protection, and Four Paws",
     year: "2026",
     description: "Compares the public cost of stricter welfare standards for EU fur farming with the cost of a production ban, finding a ban modest by comparison and one-off.",
     link: "https://griffincarpenter.org/reports/pay-to-stay-or-pay-to-go",
