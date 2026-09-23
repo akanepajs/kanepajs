@@ -11,7 +11,7 @@ const Contact = () => {
             Contact
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-8">
-            Open to collaboration on AI governance, economic policy, animal welfare, and effective giving.
+            Open to research collaboration on animal welfare, AI governance, and economic policy.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Button variant="hero" size="lg" asChild>
