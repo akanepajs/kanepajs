@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "A Full-Cost Account of the Icelandic Fur Industry: A 2025 Assessment",
+    venue: "Griffin Carpenter / Humane World for Animals and Animal Welfare Iceland",
+    year: "2026",
+    description: "Monetises the environmental and public health costs of Icelandic fur farming, finding a net cost to society of 981 million ISK in 2025.",
+    link: "https://griffincarpenter.org/reports/a-full-cost-account-of-the-icelandic-fur-industry",
+    tags: ["Fur Farming", "Full-Cost Accounting", "Iceland"]
+  },
+  {
     title: "Pay to Stay or Pay to Go? Comparing the Public Cost of Welfare Standards Versus a Ban on EU Fur Farming",
     venue: "Griffin Carpenter / Eurogroup for Animals, Respect for Animals, World Animal Protection, and Four Paws",
     year: "2026",
