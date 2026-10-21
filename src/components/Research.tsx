@@ -3,6 +3,14 @@ import { Button } from "@/components/ui/button";
 
 const publications = [
   {
+    title: "Could Increasing Plant-Based Catering in the Houses of Parliament Save Money?",
+    venue: "Griffin Carpenter / Humane World for Animals UK",
+    year: "2026",
+    description: "Uses Parliament's purchase and sales records to cost a shift from meat and seafood to plant proteins, finding that basic plant protein ingredients save 57p per £1 replaced, about £216,000 a year across both Houses at a 30% shift, and cut the emissions of the food replaced by about 80%.",
+    link: "https://griffincarpenter.org/reports/could-increasing-plant-based-catering-in-the-houses-of-parliament-save-money",
+    tags: ["Public Procurement", "Plant-Based Catering", "UK Policy"]
+  },
+  {
     title: "A Full-Cost Account of the Icelandic Fur Industry: A 2025 Assessment",
     venue: "Griffin Carpenter / Humane World for Animals and Animal Welfare Iceland",
     year: "2026",
